@@ -1,0 +1,8 @@
+.env
+.env.*
+node_modules/
+.DS_Store
+Thumbs.db
+*.CR2
+*.xmp
+*.zip
