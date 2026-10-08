@@ -1,7 +1,4 @@
 /* Meet our Team page styles, layered on styles.css. */
-.preview-notice { display: grid; gap: 5px; padding: 14px 24px; background: #dedbd1; border-bottom: 1px solid #c4c0b6; font: 400 13px/1.5 var(--sans); letter-spacing: 0; text-transform: none; }
-.preview-notice strong { color: var(--ink); }
-.preview-notice span { color: #46443e; }
 body[data-teacher-preview="wix"] .site-header { position: relative; top: auto; }
 body[data-teacher-preview="wix"] .nav-desktop [aria-disabled="true"] { color: var(--muted); cursor: not-allowed; }
 body[data-teacher-preview="wix"] .page-heading { padding-top: clamp(58px, 8vw, 100px); padding-bottom: 64px; }
@@ -34,7 +31,6 @@ body[data-teacher-preview="wix"] .bio-details summary::-webkit-details-marker { 
   .team-section .section-top { align-items: flex-start; flex-direction: column; }
 }
 @media (max-width: 560px) {
-  .preview-notice { padding: 12px 20px; font-size: 12px; }
   body[data-teacher-preview="wix"] #teacher-list { grid-template-columns: minmax(0, 1fr); gap: 36px; }
   body[data-teacher-preview="wix"] .ratio-port { max-height: 420px; }
   .team-contact { align-items: flex-start; flex-direction: column; }
