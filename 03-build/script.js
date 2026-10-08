@@ -56,40 +56,14 @@ const orderedTeachers = [...teachers].sort((firstTeacher, secondTeacher) => {
 });
 
 if (teacherList) {
-  const isWixPreview = document.body.dataset.teacherPreview === 'wix';
-  teacherList.innerHTML = orderedTeachers.map((teacher) => {
-    const needsPortrait = isWixPreview && teacher.image.startsWith('https://images.unsplash.com/');
-    const portrait = needsPortrait
-      ? `<div class="portrait-placeholder" role="img" aria-label="${teacher.name}: teacher photo pending"><span aria-hidden="true">${teacher.name.charAt(0)}</span><small>Photo coming soon</small></div>`
-      : `<img src="${teacher.image}" alt="Portrait of ${teacher.name}" loading="lazy" />`;
-    const bioId = `bio-${teacher.name.toLowerCase()}`;
-    return `
-      <article class="card">
-        <div class="card-img ratio-port">${portrait}</div>
-        <h3>${teacher.name}</h3>
-        <p class="teacher-bio" id="${bioId}">${teacher.bio}</p>
-        <button class="bio-toggle" type="button" aria-expanded="false" aria-controls="${bioId}" hidden><span class="bio-toggle-label">Read more</span><span class="sr-only"> about ${teacher.name}</span></button>
-      </article>
-    `;
-  }).join('');
-
-  // Read more un-clips the same paragraph; the button only shows when the bio is actually cut off
-  const toggles = [...teacherList.querySelectorAll('.bio-toggle')];
-  const bioFor = (toggle) => document.getElementById(toggle.getAttribute('aria-controls'));
-  const syncToggles = () => toggles.forEach((toggle) => {
-    const bio = bioFor(toggle);
-    if (!bio.classList.contains('is-expanded')) toggle.hidden = bio.scrollHeight <= bio.clientHeight + 1;
-  });
-
-  toggles.forEach((toggle) => toggle.addEventListener('click', () => {
-    const expanded = bioFor(toggle).classList.toggle('is-expanded');
-    toggle.setAttribute('aria-expanded', String(expanded));
-    toggle.querySelector('.bio-toggle-label').textContent = expanded ? 'Read less' : 'Read more';
-  }));
-
-  syncToggles();
-  window.addEventListener('resize', syncToggles);
-  document.fonts?.ready.then(syncToggles);
+  teacherList.innerHTML = orderedTeachers.map((teacher) => `
+    <article class="card">
+      <div class="card-img ratio-port"><img src="${teacher.image}" alt="Portrait of ${teacher.name}" loading="lazy" /></div>
+      <h3>${teacher.name}</h3>
+      <p class="teacher-bio">${teacher.bio}</p>
+      <details class="bio-details"><summary>Read more</summary><p>${teacher.bio}</p></details>
+    </article>
+  `).join('');
 }
 
 // Classes carousel: one row that advances on its own; pauses while the visitor is interacting

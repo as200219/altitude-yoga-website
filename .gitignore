@@ -1,8 +1,14 @@
-.env
-.env.*
-node_modules/
-.DS_Store
-Thumbs.db
+# Kept on Wesley's machine, not in this public repo
+01-content/Altitude Headshots/Raws/
 *.CR2
 *.xmp
 *.zip
+01-content/Logos and assets/Inspiration board.png
+
+# Secrets and local clutter
+.env
+.env.*
+node_modules/
+_site/
+.DS_Store
+Thumbs.db

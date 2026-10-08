@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#eeece6" />
+    <meta name="description" content="Altitude Yoga is a yoga studio in Zebulon, NC offering Vinyasa, Power, Yin, Yoga Sculpt, Lift, memberships, and class packs." />
+    <meta name="geo.region" content="US-NC" />
+    <meta name="geo.placename" content="Zebulon" />
+    <meta name="geo.position" content="35.8244;-78.3147" />
+    <title>Yoga Studio in Zebulon, NC | Altitude Yoga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "YogaStudio",
+        "name": "Altitude Yoga",
+        "description": "Yoga studio in Zebulon, North Carolina offering yoga classes, memberships, and class packs.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "106 North Arendell Ave",
+          "addressLocality": "Zebulon",
+          "addressRegion": "NC",
+          "addressCountry": "US"
+        },
+        "areaServed": "Zebulon, North Carolina",
+        "parentOrganization": { "@type": "Organization", "name": "Align Pilates" }
+      }
+    </script>
+    <script src="script.js" defer></script>
+    <script src="../class-quiz.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <nav class="nav-desktop" aria-label="Primary">
+        <a class="is-active" href="#top">Home</a>
+        <a href="about.html">About</a>
+        <a href="plan-your-visit.html#classes">Classes</a>
+        <a href="plan-your-visit.html">Plan your visit</a>
+        <a href="https://www.shop.altitude.yoga" target="_blank" rel="noopener">Shop</a>
+      </nav>
+      <a class="header-oval" href="#top" aria-label="Altitude Yoga home">
+        <img src="assets/altitude-oval.png" alt="" width="1820" height="2460" />
+      </a>
+      <div class="header-actions">
+        <a class="btn btn-solid btn-small" href="#booking">Book now</a>
+        <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Mobile">
+        <a href="#top">Home</a>
+        <a href="about.html">About</a>
+        <a href="plan-your-visit.html#classes">Classes</a>
+        <a href="plan-your-visit.html">Plan your visit</a>
+        <a href="https://www.shop.altitude.yoga" target="_blank" rel="noopener">Shop</a>
+      </nav>
+      <div class="mobile-menu-foot">
+        <a class="btn btn-solid" href="#booking">Book now</a>
+        <img src="assets/altitude-oval.png" alt="" width="1820" height="2460" />
+      </div>
+    </div>
+
+    <main id="top">
+      <!-- MASTHEAD: wordmark on paper -->
+      <section class="masthead" aria-labelledby="page-title">
+        <h1 id="page-title">
+          <img class="wordmark" src="assets/altitude-wordmark.png" alt="Altitude Yoga" width="2390" height="609" />
+        </h1>
+      </section>
+
+      <!-- IMAGE BAND -->
+      <figure class="band">
+        <img src="assets/temporary-studio-photo.png" alt="Temporary photo of the Altitude Yoga studio in Zebulon, North Carolina" />
+      </figure>
+
+      <!-- INTRO -->
+      <section class="intro wrap" id="about" aria-labelledby="intro-title">
+        <h2 id="intro-title">A practice<br />for being here.</h2>
+        <div class="intro-body">
+          <p>This studio exists because we wanted a dedicated yoga studio close to home. Altitude is a place to breathe, reset, and move alongside other people with room enough for your own mind to settle.</p>
+          <div class="btn-row">
+            <a class="btn btn-solid" href="#booking">Book now</a>
+            <a class="btn btn-line" href="plan-your-visit.html#classes">View classes</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap quiz-section" aria-label="Class finder">
+        <div id="class-quiz"></div>
+      </section>
+
+      <!-- CLASSES -->
+      <section class="section wrap" id="classes" aria-labelledby="classes-title">
+        <div class="section-top">
+          <div>
+            <p class="eyebrow">Classes</p>
+            <h2 id="classes-title">Find your practice</h2>
+          </div>
+          <div class="carousel-controls">
+            <button class="carousel-btn" type="button" data-carousel-prev aria-label="Previous classes">&larr;</button>
+            <button class="carousel-btn" type="button" data-carousel-next aria-label="Next classes">&rarr;</button>
+          </div>
+        </div>
+        <div class="class-carousel" id="class-carousel" tabindex="0" aria-label="Class types, scroll or use the arrows to see more">
+          <article class="card">
+            <div class="card-img ratio-land"><img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=700&q=70" alt="Student in a standing yoga posture" loading="lazy" /></div>
+            <p class="card-num">01</p>
+            <h3>Vinyasa</h3>
+            <p class="card-text">Link breath to movement by continuously moving from one posture to the next.</p>
+          </article>
+          <article class="card">
+            <div class="card-img ratio-land"><img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=700&q=70" alt="Students practicing together outdoors" loading="lazy" /></div>
+            <p class="card-num">02</p>
+            <h3>Power</h3>
+            <p class="card-text">A fitness-based style of vinyasa focused on building strength, flexibility, and endurance.</p>
+          </article>
+          <article class="card">
+            <div class="card-img ratio-land"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=700&q=70" alt="Seated meditation at sunrise" loading="lazy" /></div>
+            <p class="card-num">03</p>
+            <h3>Yin Descent</h3>
+            <p class="card-text">Known to calm the nervous system and increase flexibility. Poses are held for extended periods to allow connective tissue and fascia to release tension.</p>
+          </article>
+          <article class="card">
+            <div class="card-img ratio-land"><img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=70" alt="Student moving through a yoga flow" loading="lazy" /></div>
+            <p class="card-num">04</p>
+            <h3>Climb &amp; Descend</h3>
+            <p class="card-text">The perfect blend of movement and stillness: a slow vinyasa before long, restorative holds.</p>
+          </article>
+          <article class="card">
+            <div class="card-img ratio-land"><img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=700&q=70" alt="Student practicing a strong yoga posture" loading="lazy" /></div>
+            <p class="card-num">05</p>
+            <h3>Yoga Sculpt</h3>
+            <p class="card-text">Mindful yoga movement blended with full-body strength training, dumbbells, and a stretch cooldown.</p>
+          </article>
+          <article class="card">
+            <div class="card-img ratio-land"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=700&q=70" alt="Student building strength through movement" loading="lazy" /></div>
+            <p class="card-num">06</p>
+            <h3>Lift</h3>
+            <p class="card-text">A structured, full-body strength class set to music, using dumbbells to build strength from head to toe.</p>
+          </article>
+        </div>
+        <div class="carousel-foot"><a class="link" href="plan-your-visit.html#classes">See all classes</a></div>
+        <div class="temperature-note" aria-label="Class temperatures">
+          <span>Unheated <strong>70-75&deg;</strong></span>
+          <span>Warm <strong>80&deg;</strong></span>
+          <span>Thermal / Hot <strong>90-100&deg;</strong></span>
+        </div>
+      </section>
+
+      <section class="section wrap visit-preview" aria-labelledby="visit-preview-title">
+        <div class="visit-preview-copy"><p class="eyebrow">Plan your visit</p><h2 id="visit-preview-title">Find your<br />way in.</h2><p class="muted">Explore class types, temperatures, FAQs, and what to expect before you arrive at the studio.</p><a class="btn btn-line" href="plan-your-visit.html">Plan your visit</a></div>
+        <img src="assets/temporary-studio-photo.png" alt="Temporary photo of the Altitude Yoga studio" loading="lazy" />
+      </section>
+
+      <section class="section wrap shop-preview" aria-labelledby="shop-title">
+        <div class="section-top"><div><p class="eyebrow">Studio shop</p><h2 id="shop-title">Practice<br />essentials.</h2></div><p class="shop-member-note">Members get a discount in the shop. Use your Altitude Yoga or Align Pilates membership email at checkout, then pick up your order at the studio.</p></div>
+        <div class="shop-grid">
+          <a class="shop-card" href="https://www.shop.altitude.yoga/product/manduka-pro?sku=111011010" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0132/3529/0170/files/111011010-Mats-PRO71-BLACK-01.jpg?width=800" alt="Manduka PRO black yoga mat" loading="lazy" /><span>01</span><h3>Manduka PRO</h3><p>The studio standard mat, guaranteed for life.</p></a>
+          <a class="shop-card" href="https://www.shop.altitude.yoga/product/yogitoes-hand-towel?sku=261071060" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0132/3529/0170/files/261071060-YTRSKIDLESS-16-INDULGE_2.0_01.jpg?width=800" alt="Yogitoes Indulge hand towel" loading="lazy" /><span>02</span><h3>Yogitoes hand towel</h3><p>Indulge colorway with skidless grip.</p></a>
+          <a class="shop-card" href="https://www.shop.altitude.yoga/product/recycled-foam-block?sku=451012684" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0132/3529/0170/files/451012684-R-FOAM-BLOCK-LINEN_02.jpg?width=800" alt="Recycled foam block in Linen" loading="lazy" /><span>03</span><h3>Recycled foam block</h3><p>Light, stable support in studio colors.</p></a>
+          <a class="shop-card" href="https://www.shop.altitude.yoga/product/align-yoga-strap-6?sku=413016684" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0132/3529/0170/files/413016684_ALIGN-6FT_LINEN_02.jpg?width=800" alt="AligN 6 foot yoga strap in Linen" loading="lazy" /><span>04</span><h3>AligN yoga strap</h3><p>Extra reach for stretches and binds.</p></a>
+          <a class="shop-card" href="https://www.shop.altitude.yoga/product/the-commuter?sku=332012010" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0132/3529/0170/products/2132md_Commuter_332012010_Carriers_Black_01_1.jpg?width=800" alt="Commuter mat carrier in Black" loading="lazy" /><span>05</span><h3>Commuter mat carrier</h3><p>Carry your mat to and from class.</p></a>
+        </div>
+        <div class="shop-more"><a class="btn btn-line" href="https://www.shop.altitude.yoga" target="_blank" rel="noopener">Shop more</a></div>
+      </section>
+
+      <section class="booking-cta" id="booking" aria-labelledby="booking-title">
+        <p class="eyebrow">Zebulon, North Carolina</p>
+        <h2 id="booking-title">Ready to practice?</h2>
+        <p>Book your next class at Altitude Yoga, located at 106 North Arendell Ave in Zebulon.</p>
+        <a class="btn btn-solid" href="mailto:hello@example.com?subject=Altitude%20Yoga%20booking">Book now</a>
+      </section>
+
+      <!-- CLOSING -->
+      <section class="closing" aria-labelledby="closing-title">
+        <img class="closing-oval" src="assets/altitude-oval.png" alt="" width="1820" height="2460" />
+        <h2 id="closing-title">Your practice<br />starts here</h2>
+        <a class="btn btn-light" href="#booking">Book now</a>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" id="journal">
+      <img class="footer-wordmark" src="assets/altitude-wordmark.png" alt="Altitude Yoga" width="2390" height="609" loading="lazy" />
+      <div class="footer-grid">
+        <div>
+          <p class="eyebrow">Visit</p>
+          <p>106 North Arendell Ave<br />Zebulon, NC</p>
+        </div>
+        <div>
+          <p class="eyebrow">Contact</p>
+          <p><a href="mailto:hello@example.com">Email the studio</a><br /><a href="tel:+10000000000">Call the studio</a></p>
+        </div>
+        <div>
+          <p class="eyebrow">Follow</p>
+          <p><a href="#">Instagram</a><br /><a href="https://www.alignpilates.fit" target="_blank" rel="noopener">Align Pilates</a></p>
+        </div>
+      </div>
+      <p class="footer-copy">© 2026 Altitude Yoga</p>
+    </footer>
+  </body>
+</html>

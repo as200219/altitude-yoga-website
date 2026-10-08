@@ -1,0 +1,42 @@
+# Publishes the site to GitHub Pages on every push to main.
+# The published site is 03-build/ plus class-quiz.js (which lives at the project root),
+# assembled the same way as the standalone altitude-yoga-html-site copy.
+name: Publish site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble site
+        run: |
+          mkdir _site
+          cp -r 03-build/. _site/
+          cp class-quiz.js _site/
+          sed -i 's#src="../class-quiz.js"#src="class-quiz.js"#' _site/*.html
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
