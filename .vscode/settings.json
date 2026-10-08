@@ -1,0 +1,11 @@
+{
+  // Pushing to main publishes the live site, so pushes always need a person to confirm.
+  "chat.tools.terminal.autoApprove": {
+    "git push": false,
+    "/^git\s+push\b/": false
+  },
+  "git.postCommitCommand": "none",
+  "git.confirmSync": true,
+  "git.confirmForcePush": true,
+  "git.allowForcePush": false
+}
