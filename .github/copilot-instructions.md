@@ -14,7 +14,7 @@ This workspace builds the Altitude Yoga website locally before the finished page
 - Design decisions: `02-design/README.md`
 - Wix transfer notes: `04-wix-handoff/README.md`
 
-Use the text export for page copy. Do not replace approved names, bios, class descriptions, or prices with invented content. Jessica's bio is pending in the source copy and should remain clearly marked until supplied.
+Use the text export for page copy. Do not replace approved names, bios, class descriptions, or prices with invented content.
 
 The homepage is the booking and local-search landing page. Keep the full About story and teacher directory on About, use Plan Your Visit as the class/FAQ/photo planning hub, and keep the membership sales page separate from the detailed pricing options page.
 
