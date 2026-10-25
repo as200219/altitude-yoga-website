@@ -414,4 +414,5 @@ h3 { font-size: 1.1rem; letter-spacing: .06em; }
 .app-features li { padding-top: 14px; border-top: 1px solid var(--rule); }
 .app-features strong { color: var(--ink); font-weight: 500; }
 .app-shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 10px; }
-.app-shot { display: grid; place-items: center; aspect-ratio: 9 / 16; padding: 12px; background: var(--stone); color: var(--muted); font: 500 10px/1.5 var(--sans); letter-spacing: .18em; text-align: center; text-transform: uppercase; }
+.app-shot { margin: 0; overflow: hidden; border: 1px solid var(--rule); border-radius: 14px; background: var(--stone); }
+.app-shot img { display: block; width: 100%; height: auto; }
