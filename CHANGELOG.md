@@ -8,6 +8,10 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
+## 1.10 — Bios expand in place, same header on every page
+- Teachers: Read more continues the same paragraph in the same type and case. The full bio is no longer repeated underneath in capitals.
+- Every page header, desktop and mobile, uses the same links: Home, About, Teachers, Classes, Pricing, Plan your visit, and Shop.
+
 ## 1.9 — Jessica's teacher bio
 - Teachers: Jessica's card uses her supplied bio in place of "Bio coming soon." The same
   wording is in `01-content/Copy/Altitude Website Info.txt`, which the teacher list is copied from.

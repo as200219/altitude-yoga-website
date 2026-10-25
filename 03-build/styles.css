@@ -78,6 +78,9 @@ h3 { font-size: 1.1rem; letter-spacing: .06em; }
   border-bottom: 1px solid var(--rule);
 }
 .nav-desktop { display: flex; gap: 24px; }
+@media (min-width: 901px) and (max-width: 1040px) {
+  .nav-desktop { gap: 16px; }
+}
 .nav-desktop a { padding: 4px 0; font: 500 11px/1 var(--sans); letter-spacing: .22em; border-bottom: 1px solid transparent; }
 .nav-desktop a:hover, .nav-desktop .is-active { border-bottom-color: var(--ink); }
 .header-oval { justify-self: center; }
@@ -249,7 +252,12 @@ h3 { font-size: 1.1rem; letter-spacing: .06em; }
 .teacher-photo-coming-soon { display: grid; place-items: center; background: linear-gradient(rgba(20, 20, 20, .28), rgba(20, 20, 20, .48)), url('assets/studio/studio-brick-mirror.jpg') center / cover; color: var(--paper); font: 500 10px/1 var(--sans); letter-spacing: .2em; text-align: center; text-transform: uppercase; }
 .card-num, .card-role { font: 500 10px/1 var(--sans); letter-spacing: .24em; color: var(--muted); }
 .card-text { color: var(--muted); font-size: 12px; line-height: 1.7; }
-.teacher-bio { display: -webkit-box; overflow: hidden; color: var(--muted); font-size: 13px; line-height: 1.75; letter-spacing: .02em; text-transform: none; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+.teacher-bio { display: -webkit-box; overflow: hidden; color: var(--muted); font-size: 13px; line-height: 1.75; letter-spacing: .02em; text-transform: none; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; }
+.teacher-bio.is-expanded { display: block; overflow: visible; -webkit-line-clamp: unset; line-clamp: unset; }
+.bio-toggle { display: inline-flex; align-items: center; gap: 6px; justify-self: start; margin: 0; padding: 2px 0; border: 0; background: none; color: inherit; cursor: pointer; font: 500 11px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; }
+.bio-toggle::before { content: ""; width: 0; height: 0; border-top: 4px solid transparent; border-bottom: 4px solid transparent; border-left: 5px solid currentColor; }
+.bio-toggle[aria-expanded="true"]::before { border-top: 5px solid currentColor; border-right: 4px solid transparent; border-bottom: 0; border-left: 4px solid transparent; }
+.bio-toggle[hidden] { display: none; }
 
 /* Classes carousel: one row, auto-advances (script.js) */
 .class-carousel {
