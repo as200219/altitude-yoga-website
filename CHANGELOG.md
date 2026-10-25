@@ -8,6 +8,10 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
+## 1.3 — Booking opens Mindbody Explore
+- Every "Book now" and "Book a class" button opens https://www.mindbodyonline.com/explore
+  instead of the Mindbody home page, until the studio's own booking page address is ready.
+
 ## 1.2 — Real booking and contact links
 - Every "Book now" and "Book a class" button opens Mindbody (https://www.mindbodyonline.com) in
   a new tab, until the studio's own Mindbody booking page address is ready.
