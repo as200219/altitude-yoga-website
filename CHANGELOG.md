@@ -8,6 +8,11 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
+## 1.2 — Real booking and contact links
+- Every "Book now" and "Book a class" button opens Mindbody (https://www.mindbodyonline.com) in
+  a new tab, until the studio's own Mindbody booking page address is ready.
+- Footer contact: info@altitude.yoga and 1-919-283-1236 replace the placeholder email and phone.
+
 ## 1.1 — Updated classes, policies, and memberships
 - Class lineup: "Yin Descent" is now Descend Yin, and Lift is replaced by Aero: Mat Pilates
   (class cards, Plan your visit, and the class quiz). Class descriptions match the studio copy.

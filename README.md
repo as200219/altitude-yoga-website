@@ -30,4 +30,6 @@ Keep content, design decisions, and implementation separate. That makes it easy 
 
 Every push to `main` publishes `03-build/` to https://as200219.github.io/altitude-yoga-website/ (about a minute; see the Actions tab).
 
+Booking buttons all link to `https://www.mindbodyonline.com` for now. When the studio's own Mindbody booking page is ready, replace that address in every `03-build/*.html` file (one find-and-replace) and bump the version.
+
 Every page footer shows the site version and when it was last updated, in Eastern time ("Version 1.0 · Updated Oct 25, 2026 at 12:50 PM ET"), so you can always tell which version is live. The version is the top `## x.y` heading in `CHANGELOG.md`: add an entry and bump it with each change you publish. Publishing fills in the footer and `version.json` (https://as200219.github.io/altitude-yoga-website/version.json); a page opened from your computer says "Local preview · not published". Work on a branch and open a pull request when you want a change reviewed before it goes live. Raw photos, zip exports, and the inspiration board stay on your machine and are not uploaded (see `.gitignore`).
