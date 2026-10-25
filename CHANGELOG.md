@@ -8,9 +8,12 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
-## 1.8 — Jessica's teacher bio
+## 1.9 — Jessica's teacher bio
 - Teachers: Jessica's card uses her supplied bio in place of "Bio coming soon." The same
   wording is in `01-content/Copy/Altitude Website Info.txt`, which the teacher list is copied from.
+
+## 1.8 — Teachers link on the home page
+- The home page header (desktop and mobile menu) has a "Teachers" link to the teachers page.
 
 ## 1.7 — Live Mindbody booking link
 - Every "Book now" and "Book a class" button, and the three "Become a member" buttons on
