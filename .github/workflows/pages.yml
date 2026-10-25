@@ -34,6 +34,11 @@ jobs:
           sed -i 's#src="../class-quiz.js"#src="class-quiz.js"#' _site/*.html
           touch _site/.nojekyll
 
+      - name: Stamp version and update time
+        # Every footer shows "Version x.y · Updated <date> at <time> ET" (from CHANGELOG.md
+        # and this commit's time), and _site/version.json carries the same for checking.
+        run: bash .github/stamp-version.sh _site
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

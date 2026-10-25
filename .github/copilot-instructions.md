@@ -41,6 +41,10 @@ Pushing to `main` publishes the site to the public internet within about a minut
 - When a set of changes is finished, summarize what changed and ask: "Do you want to publish these changes to the live website now?" Push only after she answers yes.
 - Never force-push, rewrite published history, or delete branches; GitHub blocks these on `main`.
 
+## Version in the footer
+
+Every page footer ends with `<p class="footer-version"><!--site-version-->Local preview · not published<!--/site-version--></p>`. Keep that line on every page, including new ones: publishing replaces it with the version and update time (Eastern), and fails if a page is missing it. For each change you publish, add a `CHANGELOG.md` entry and bump the top `## x.y` heading (minor for content and design, major for a new site structure).
+
 ## Wix handoff
 
 The local page is a design and content prototype, not an automatic Wix importer. Recreate the approved structure with native Wix sections, repeaters, buttons, images, and CMS collections where ongoing teacher updates require them.

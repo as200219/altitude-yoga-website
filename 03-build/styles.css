@@ -319,6 +319,8 @@ h3 { font-size: 1.1rem; letter-spacing: .06em; }
 .footer-grid .eyebrow { opacity: .55; margin-bottom: 8px; }
 .footer-grid a:hover { text-decoration: underline; }
 .footer-copy { max-width: 1060px; margin: 48px auto 0; padding-top: 20px; border-top: 1px solid rgba(238, 236, 230, .2); font-size: 10px; letter-spacing: .2em; opacity: .6; text-align: center; }
+/* Version and update time, stamped at publish (Eastern). Shows "Local preview" off the live site. */
+.footer-version { max-width: 1060px; margin: 10px auto 0; font-size: 10px; letter-spacing: .2em; opacity: .6; text-align: center; }
 
 /* Tablet & phone */
 @media (max-width: 900px) {
