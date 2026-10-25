@@ -32,8 +32,7 @@ const teachers = [
   },
   {
     name: 'Jessica',
-    // Bio pending in the source document; replace when supplied.
-    bio: 'Bio coming soon.',
+    bio: 'Jessica aims for an unhurried, pressure-free space designed to ground the body and steady the mind. Focusing on deliberate transitions, sustainable strength, and restorative stillness, her classes invite students to move with intention rather than speed. Above all, she seeks to offer an open, steady space where you can simply slow down, breathe, and land back in yourself.',
     image: 'assets/headshots/Jessica.jpg'
   },
   {

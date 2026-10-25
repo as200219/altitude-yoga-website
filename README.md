@@ -12,7 +12,7 @@ This project is a local working space for building a teacher-focused webpage for
 
 ## Current status
 
-The local preview now includes a booking-focused, locally searchable homepage, an About page with the teacher directory, a photo-rich Plan Your Visit hub, a membership sales page, and a separate full Pricing Options page using the official pricing guide asset. Jessica's bio, contact details, booking links, and final pricing approval are still pending.
+The local preview now includes a booking-focused, locally searchable homepage, an About page with the teacher directory, a photo-rich Plan Your Visit hub, a membership sales page, and a separate full Pricing Options page using the official pricing guide asset. Contact details, booking links, and final pricing approval are still pending.
 
 Project-specific agent guidance lives in `.github/copilot-instructions.md`.
 

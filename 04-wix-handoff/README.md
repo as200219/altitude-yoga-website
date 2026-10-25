@@ -3,7 +3,7 @@
 ## Recommended transfer order
 
 1. Confirm the copy in `01-content/Copy/Altitude Website Info.txt` against the studio's final approved wording.
-2. Finalize teacher photos, Jessica's bio, links, contact details, and approvals.
+2. Finalize teacher photos, links, contact details, and approvals.
 3. Approve the direction in `02-design/README.md`.
 4. Test the local page at desktop and mobile widths.
 5. Recreate the page in Wix using native sections, repeater elements, text, images, and buttons.
