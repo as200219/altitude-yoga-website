@@ -8,6 +8,11 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
+## 1.7 — Live Mindbody booking link
+- Every "Book now" and "Book a class" button, and the three "Become a member" buttons on
+  Pricing, open the studio's live Mindbody booking site (https://get.mndbdy.ly/mBLZj3Mfx7b) in a
+  new tab instead of Mindbody Explore. "Ask about membership" still goes to the booking section.
+
 ## 1.6 — Members App screenshots
 - Pricing: the Altitude Members App section shows three real screenshots (home, schedule, and
   Fly with Friends) in place of the "App screenshot coming soon" placeholders.
