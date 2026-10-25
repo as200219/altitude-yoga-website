@@ -8,6 +8,10 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
+## 1.5 — Drop-in expiration shown
+- Pricing and More pricing options: the drop-in line reads "One class · 30-day expiration",
+  matching the 5-pack and 10-pack lines.
+
 ## 1.4 — No membership freeze question
 - Pricing: the "What if I'm going on vacation or need a break?" question (membership freeze)
   is gone from the membership FAQ.
