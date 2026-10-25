@@ -12,7 +12,7 @@
   var SCHEDULE_URL = "plan-your-visit.html#classes";
 
   // Tie-break order: earlier = wins ties (gentlest first).
-  var ORDER = ["cd", "vin", "yin", "sculpt", "power", "lift"];
+  var ORDER = ["cd", "vin", "yin", "aero", "sculpt", "power"];
 
   var CLASSES = {
     cd: {
@@ -26,9 +26,14 @@
       desc: "Link breath to movement by continuously moving from one posture to the next."
     },
     yin: {
-      name: "Yin “Descent”",
+      name: "Descend Yin",
       tag: "Your nervous system called. It would like a long, quiet hold.",
       desc: "Known to calm the nervous system and increase flexibility. Poses are held for extended periods of time to let connective tissue and fascia release tension."
+    },
+    aero: {
+      name: "Aero: Mat Pilates",
+      tag: "Small moves, big burn. Your core is about to have opinions.",
+      desc: "A mat Pilates class focused on core strength, control, and precise movement. Expect to feel the burn."
     },
     sculpt: {
       name: "Yoga Sculpt",
@@ -39,11 +44,6 @@
       name: "Power",
       tag: "You came to work. You’ll leave standing a little taller.",
       desc: "A fitness-based style of vinyasa focused on building strength, flexibility, and endurance."
-    },
-    lift: {
-      name: "Lift",
-      tag: "Put the playlist on. Pick up the weights. Head to toe.",
-      desc: "A structured, full-body strength class set to music, with dumbbells throughout. Segments target legs, glutes, back, arms, and core, building steady, controlled movement to fatigue the muscle and keep your heart rate up."
     }
   };
 
@@ -53,37 +53,37 @@
       { t: "Slow coffee. Possibly still in a blanket.", s: { yin: 2, cd: 1 } },
       { t: "A walk that accidentally turns into a hike.", s: { vin: 2, cd: 1 } },
       { t: "An early workout. Brunch is earned.", s: { power: 2, sculpt: 1 } },
-      { t: "Playlist on, something heavy in my hands.", s: { lift: 2, sculpt: 1 } }
+      { t: "Something small and spicy. Mostly abs.", s: { aero: 2, sculpt: 1 } }
     ]},
     { eyebrow: "Be honest", q: "How has your week been?", a: [
       { t: "Running on fumes.", s: { yin: 2, cd: 1 } },
-      { t: "Scattered. I need to focus.", s: { vin: 2 } },
+      { t: "Scattered. I need to focus.", s: { vin: 2, aero: 1 } },
       { t: "Restless. I need to burn it off.", s: { power: 2, sculpt: 1 } },
-      { t: "Pretty good, actually. Challenge me.", s: { lift: 1, sculpt: 1, power: 1 } }
+      { t: "Pretty good, actually. Challenge me.", s: { sculpt: 2, aero: 1 } }
     ]},
     { eyebrow: "Pace", q: "Pick your tempo.", a: [
       { t: "Flow, and keep flowing.", s: { vin: 2, power: 1 } },
       { t: "Warm up, then settle in.", s: { cd: 2 } },
       { t: "Be still and go deep.", s: { yin: 2 } },
-      { t: "Structured rounds. Count me in.", s: { lift: 2, sculpt: 1 } }
+      { t: "Slow, small and precise. Every rep counts.", s: { aero: 2, sculpt: 1 } }
     ]},
     { eyebrow: "The big question", q: "How do you feel about dumbbells in yoga?", a: [
-      { t: "Yes, please. Best of both.", s: { sculpt: 2, lift: 1 } },
-      { t: "Skip the yoga, keep the dumbbells.", s: { lift: 2 } },
+      { t: "Yes, please. Best of both.", s: { sculpt: 2, power: 1 } },
+      { t: "Skip the weights. Give me core work.", s: { aero: 2 } },
       { t: "Bodyweight is plenty, thanks.", s: { power: 1, vin: 1 } },
-      { t: "The only thing I’m lifting is my mood.", s: { yin: 2, cd: 1 } }
+      { t: "The only thing I’m lifting is my mood.", s: { cd: 2, yin: 1 } }
     ]},
     { eyebrow: "Soundtrack", q: "What’s playing in the room?", a: [
       { t: "Something soft and low.", s: { yin: 1, cd: 1 } },
       { t: "A steady beat to move with.", s: { vin: 1, power: 1 } },
-      { t: "Loud enough to lift to.", s: { lift: 2, sculpt: 1 } },
-      { t: "Doesn’t matter. I’m in my own head.", s: { vin: 1, yin: 1 } }
+      { t: "Loud. Make it a workout.", s: { sculpt: 2, power: 1 } },
+      { t: "Doesn’t matter. I’m locked in on my form.", s: { aero: 1, vin: 1 } }
     ]},
     { eyebrow: "Last one", q: "How do you want to walk out?", a: [
       { t: "Loose, quiet, a little floaty.", s: { yin: 2 } },
       { t: "Balanced. Worked, but calm.", s: { cd: 2, vin: 1 } },
       { t: "Sweaty and proud of it.", s: { power: 2, sculpt: 1 } },
-      { t: "Strong. Sore tomorrow, the good kind.", s: { lift: 2, sculpt: 1 } }
+      { t: "Core on fire. Sore tomorrow, the good kind.", s: { aero: 2, sculpt: 1 } }
     ]}
   ];
 

@@ -1,14 +1,9 @@
 // Teacher bios are copied word for word from 01-content/Copy/Altitude Website Info.txt. Do not summarize.
 const teachers = [
   {
-    name: 'Carolyn',
-    bio: 'With more than 30 years of experience in the fitness industry, Carolyn began teaching group exercise in 1990 and has been passionate about helping others move and feel their best ever since. Today, she teaches Reformer Pilates, mat Pilates, and light weight training classes with a focus on building strength, improving mobility, and creating a welcoming environment where clients of all levels can thrive.',
-    image: 'assets/headshots/Carolyn.jpg'
-  },
-  {
     name: 'Caroline',
     bio: 'Caroline grew up in Zebulon, NC, and is a full-time freelance artist and instructor who teaches private voice and piano, leads yoga and fitness classes, and performs with opera companies and performing arts organizations. She began practicing yoga in her twenties to support herself through the challenges and triumphs of higher education, and in 2021, completed her RYT(200). Caroline believes the body is our instrument and she strives to create an inclusive space where every body, every story, and every unique “music” is honored as part of the beautiful orchestra of life.',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&h=760&fit=crop&crop=faces&q=80'
+    image: null
   },
   {
     name: 'Stacy',
@@ -33,7 +28,7 @@ const teachers = [
   {
     name: 'Amy',
     bio: 'Amy believes that movement is a celebration of what the body can do. Her classes blend a deep love for creative yoga sequencing with an unwavering commitment to inclusivity. Every body, age, and ability level is welcome. Together, Amy and her students build a supportive space to connect and feel right at home. Expect mindful, accessible flows set to fun, hand-crafted playlists that will keep you motivated and smiling.',
-    image: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=600&h=760&fit=crop&crop=faces&q=80'
+    image: null
   },
   {
     name: 'Jessica',
@@ -44,7 +39,7 @@ const teachers = [
   {
     name: 'Kyahna',
     bio: 'Kyahna grew up in San Diego, CA and works in crisis counseling and higher education. She became an RYT200 earlier this year after years of a dedicated personal practice. In her free time, she enjoys doing yoga, playing the piano, listening to music, and spending time with loved ones. Kyahna believes in always giving yourself room to grow - that life is about learning, trying new things, and becoming a better version of yourself along the way.',
-    image: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=600&h=760&fit=crop&crop=faces&q=80'
+    image: null
   }
 ];
 
@@ -58,7 +53,9 @@ const orderedTeachers = [...teachers].sort((firstTeacher, secondTeacher) => {
 if (teacherList) {
   teacherList.innerHTML = orderedTeachers.map((teacher) => `
     <article class="card">
-      <div class="card-img ratio-port"><img src="${teacher.image}" alt="Portrait of ${teacher.name}" loading="lazy" /></div>
+      ${teacher.image
+        ? `<div class="card-img ratio-port"><img src="${teacher.image}" alt="Portrait of ${teacher.name}" loading="lazy" /></div>`
+        : `<div class="card-img ratio-port teacher-photo-coming-soon" role="img" aria-label="Headshot coming soon for ${teacher.name}"><span>Coming soon</span></div>`}
       <h3>${teacher.name}</h3>
       <p class="teacher-bio">${teacher.bio}</p>
       <details class="bio-details"><summary>Read more</summary><p>${teacher.bio}</p></details>

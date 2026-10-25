@@ -8,6 +8,16 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
+## 1.1 — Updated classes, policies, and memberships
+- Class lineup: "Yin Descent" is now Descend Yin, and Lift is replaced by Aero: Mat Pilates
+  (class cards, Plan your visit, and the class quiz). Class descriptions match the studio copy.
+- New "Choose your temperature" section on the home page: unheated, warm, and thermal rooms.
+- Memberships are month-to-month and renew automatically, cancelled through Mindbody; every
+  membership includes the Altitude Members App, with a new section describing it.
+- FAQ: new phone policy and late arrival policy, and an updated cancellation and no-show policy.
+- New home page hero and studio photos; class cards and teachers without headshots show
+  "coming soon" instead of placeholder photos. Carolyn is removed from the teacher list.
+
 ## 1.0 — Numbered releases start
 - Every page footer shows the site version and when it was last updated, in Eastern time,
   so anyone can tell which version of the site they are looking at.
