@@ -50,16 +50,43 @@ const orderedTeachers = [...teachers].sort((firstTeacher, secondTeacher) => {
 });
 
 if (teacherList) {
+  const escapeHtml = (value) => value
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;');
+
   teacherList.innerHTML = orderedTeachers.map((teacher) => `
     <article class="card">
       ${teacher.image
-        ? `<div class="card-img ratio-port"><img src="${teacher.image}" alt="Portrait of ${teacher.name}" loading="lazy" /></div>`
-        : `<div class="card-img ratio-port teacher-photo-coming-soon" role="img" aria-label="Headshot coming soon for ${teacher.name}"><span>Coming soon</span></div>`}
-      <h3>${teacher.name}</h3>
-      <p class="teacher-bio">${teacher.bio}</p>
-      <details class="bio-details"><summary>Read more</summary><p>${teacher.bio}</p></details>
+        ? `<div class="card-img ratio-port"><img src="${escapeHtml(teacher.image)}" alt="Portrait of ${escapeHtml(teacher.name)}" loading="lazy" /></div>`
+        : `<div class="card-img ratio-port teacher-photo-coming-soon" role="img" aria-label="Headshot coming soon for ${escapeHtml(teacher.name)}"><span>Coming soon</span></div>`}
+      <h3>${escapeHtml(teacher.name)}</h3>
+      <p class="teacher-bio">${escapeHtml(teacher.bio)}</p>
+      <button type="button" class="bio-toggle" aria-expanded="false">Read more</button>
     </article>
   `).join('');
+
+  const biosFit = () => {
+    teacherList.querySelectorAll('.card').forEach((card) => {
+      const bio = card.querySelector('.teacher-bio');
+      const button = card.querySelector('.bio-toggle');
+      if (bio.classList.contains('is-expanded')) return;
+      button.hidden = bio.scrollHeight <= bio.clientHeight + 1;
+    });
+  };
+
+  teacherList.addEventListener('click', (event) => {
+    const button = event.target.closest('.bio-toggle');
+    if (!button) return;
+    const bio = button.previousElementSibling;
+    const open = bio.classList.toggle('is-expanded');
+    button.setAttribute('aria-expanded', String(open));
+    button.textContent = open ? 'Read less' : 'Read more';
+  });
+
+  biosFit();
+  window.addEventListener('resize', biosFit);
 }
 
 // Classes carousel: one row that advances on its own; pauses while the visitor is interacting
