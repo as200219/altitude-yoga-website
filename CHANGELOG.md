@@ -8,6 +8,10 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
+## 1.6 — Members App screenshots
+- Pricing: the Altitude Members App section shows three real screenshots (home, schedule, and
+  Fly with Friends) in place of the "App screenshot coming soon" placeholders.
+
 ## 1.5 — Drop-in expiration shown
 - Pricing and More pricing options: the drop-in line reads "One class · 30-day expiration",
   matching the 5-pack and 10-pack lines.
