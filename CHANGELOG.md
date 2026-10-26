@@ -8,6 +8,10 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
+## 1.13 — Studio email and phone shown in full
+- Home page footer, Contact column: "Email the studio" and "Call the studio" now read
+  info@altitude.yoga and (919) 283-1236. They still open an email or a call when tapped.
+
 ## 1.12 — Instagram and Facebook links
 - Footer: Instagram (https://www.instagram.com/altitude_yoga_nc/) and Facebook (https://www.facebook.com/share/1F29ZhQ2dJ/) open in a new tab. The home page's "Follow" column
   had a placeholder Instagram link and no Facebook; every other page's footer now has both too.
