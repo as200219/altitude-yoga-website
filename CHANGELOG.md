@@ -8,6 +8,11 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
+## 1.11 — Teachers on the About page
+- The top menu no longer has a Teachers link, on desktop or in the phone menu. Every teacher, with
+  photo and bio, is in the "Meet the teachers" section of the About page.
+- The old teachers.html address forwards to that section, so existing links still work.
+
 ## 1.10 — Bios expand in place, same header on every page
 - Teachers: Read more continues the same paragraph in the same type and case. The full bio is no longer repeated underneath in capitals.
 - Every page header, desktop and mobile, uses the same links: Home, About, Teachers, Classes, Pricing, Plan your visit, and Shop.
