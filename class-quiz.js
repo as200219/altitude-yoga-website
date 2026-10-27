@@ -8,8 +8,8 @@
 
   /* ---------- QUIZ CONTENT ---------- */
 
-  // Where "See the schedule" goes (your Mindbody schedule page).
-  var SCHEDULE_URL = "plan-your-visit.html#classes";
+  // Where "Book a class" goes: the studio's live Mindbody schedule (same link as "Book now").
+  var SCHEDULE_URL = "https://get.mndbdy.ly/mBLZj3Mfx7b";
 
   // Tie-break order: earlier = wins ties (gentlest first).
   var ORDER = ["cd", "vin", "yin", "aero", "sculpt", "power"];
@@ -171,7 +171,7 @@
           '<p class="aq-desc">' + esc(top.desc) + '</p>' +
           '<div class="aq-alt"><span>Also worth a try:</span><span class="aq-chip">' + esc(alt.name) + '</span></div>' +
           '<div class="aq-actions">' +
-            '<a class="aq-btn aq-btn-primary" href="' + esc(SCHEDULE_URL) + '">See the schedule</a>' +
+            '<a class="aq-btn aq-btn-primary" href="' + esc(SCHEDULE_URL) + '" target="_blank" rel="noopener">Book a class</a>' +
             '<button type="button" class="aq-btn aq-btn-ghost" data-action="retake">Retake the quiz</button>' +
           '</div>' +
         '</div>' +

@@ -8,6 +8,20 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
+## 1.14 — Pricing page and quiz match today's studio
+- Pricing page: the search description names the current memberships (Altitude Unlimited, Align &
+  Altitude Silver and Gold) instead of Reformer 8 and All-Access VIP.
+- Members App list: adds booking in the app; "Low-spot alerts" becomes "Spots left" (the app
+  shows them, it doesn't send alerts yet); "Guest passes" becomes "Bring a guest"; "Seasonal
+  challenges" becomes the monthly Studio Flight.
+- FAQ: cancelling a membership says the Mindbody app or website, so it isn't read as the Members
+  App; membership benefits say guest passes and 5–15% off Manduka instead of buddy passes.
+- Class quiz: "See the schedule" went to class descriptions. It is now "Book a class" and opens
+  the live Mindbody schedule in a new tab.
+- Source copy in 01-content (FAQ, Policies, Website Info) brought in line with the live site:
+  month-to-month memberships cancelled in Mindbody, no freeze, late arrivals not admitted, $15
+  member no-show, current tier names, guest passes, and Carolyn's bio removed.
+
 ## 1.13 — Studio email and phone shown in full
 - Home page footer, Contact column: "Email the studio" and "Call the studio" now read
   info@altitude.yoga and (919) 283-1236. They still open an email or a call when tapped.

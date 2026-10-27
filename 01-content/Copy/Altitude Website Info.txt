@@ -18,7 +18,6 @@
       * Warm: 80 degrees
       * Thermal/Hot: 90-100 degrees
 * Teacher Bios
-   * Carolyn - With more than 30 years of experience in the fitness industry, Carolyn began teaching group exercise in 1990 and has been passionate about helping others move and feel their best ever since. Today, she teaches Reformer Pilates, mat Pilates, and light weight training classes with a focus on building strength, improving mobility, and creating a welcoming environment where clients of all levels can thrive
    * Caroline -Caroline grew up in Zebulon, NC, and is a full-time freelance artist and instructor who teaches private voice and piano, leads yoga and fitness classes, and performs with opera companies and performing arts organizations. She began practicing yoga in her twenties to support herself through the challenges and triumphs of higher education, and in 2021, completed her RYT(200). Caroline believes the body is our instrument and she strives to create an inclusive space where every body, every story, and every unique “music” is honored as part of the beautiful orchestra of life.
    * Stacy - Stacy is a Trauma-Informed RYT500 who is also Warriors at Ease (WAE) level 1 trained and Yoga Nidra certified. With more than a decade of experience across a wide range of yoga and sculpt formats, she is incredibly passionate about making movement accessible to everyone regardless of experience, age, or mobility. Expect music-driven, lighthearted vibes.
    * Erin - With nearly 10 years of experience as a 200-hour certified yoga instructor, Erin shares her love of yoga through creative flows inspired by a background in gymnastics and dance. She specializes in vinyasa flow and inversions; and is enthusiastic about helping students learn to challenge themselves in a safe and supportive environment. With classes focused on alignment, strength, and mindfulness, she can guide students through their practice and learn to appreciate what they are capable of.
@@ -28,17 +27,16 @@
    * Jessica - Jessica aims for an unhurried, pressure-free space designed to ground the body and steady the mind. Focusing on deliberate transitions, sustainable strength, and restorative stillness, her classes invite students to move with intention rather than speed. Above all, she seeks to offer an open, steady space where you can simply slow down, breathe, and land back in yourself.
    * Kyahna - Kyahna grew up in San Diego, Ca and works in crisis counseling and higher education. She became an RYT200 earlier this year after years of a dedicated personal practice. In her free time, she enjoys doing yoga, playing the piano, listening to music, and spending time with loved ones. Kyahna believes in always giving yourself room to grow - that life is about learning, trying new things, and becoming a better version of yourself along the way.
 * Pricing options 
-   * Memberships are 3-month commitments, no rollover
-   * “Altitude Unlimited” 
-      * Unlimited yoga 
-         * $150/month
-   * Reformer 8 (Plus Yoga Perk)
+   * Memberships are month-to-month and renew automatically
+   * Altitude Unlimited
+      * $150/month
+      * Unlimited Altitude classes, 5% off Manduka, 1 guest pass per month
+   * Align & Altitude Silver
       * $250/month
-      * 8 reformer classes + 4 yoga passes
-   * All-Access VIP
-      * $350/month
-      * 12 reformer classes + unlimited yoga
-      * Limited availability
+      * 8 Align classes + 4 Altitude classes, 10% off Manduka, 1 guest pass per month
+   * Align & Altitude Gold
+      * $375/month (see the live site; confirm against the Mindbody contract)
+      * 12 Align classes + unlimited Altitude classes, 15% off Manduka, 2 guest passes per month
    * Drop-in
       * $22
    * 5-pack
