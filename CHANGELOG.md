@@ -11,8 +11,8 @@ Add the entry in the same commit as the change.
 ## 1.14 — Pricing page and quiz match today's studio
 - Pricing page: the search description names the current memberships (Altitude Unlimited, Align &
   Altitude Silver and Gold) instead of Reformer 8 and All-Access VIP.
-- Members App list: adds booking in the app; "Low-spot alerts" becomes "Spots left" (the app
-  shows them, it doesn't send alerts yet); "Guest passes" becomes "Bring a guest"; "Seasonal
+- Members App list: adds booking in the app; "Low-spot alerts" becomes "Spots left" (what the
+  app shows on the schedule); "Guest passes" becomes "Bring a guest"; "Seasonal
   challenges" becomes the monthly Studio Flight.
 - FAQ: cancelling a membership says the Mindbody app or website, so it isn't read as the Members
   App; membership benefits say guest passes and 5–15% off Manduka instead of buddy passes.
