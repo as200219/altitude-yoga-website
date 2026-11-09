@@ -12,7 +12,7 @@ Add the entry in the same commit as the change.
 - Home page class cards now run Vinyasa, Power, Climb & Descend, Yoga Sculpt, Descend Yin, Aero: Mat
   Pilates, so photos of the same people (Power and Descend Yin; Yoga Sculpt and Aero) no longer sit
   side by side.
-- Pricing page top photo: the teacher laughing as she assists a student in the gray set, instead
+- Pricing page top photo: a student in a low lunge with hands at heart, instead
   of the splits assist.
 
 ## 1.15 — Class photos on the home page
