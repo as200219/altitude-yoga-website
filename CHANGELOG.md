@@ -17,7 +17,8 @@ Add the entry in the same commit as the change.
   shelves, mirrors, and door knob.
 - Plan Your Visit photo strip: the photos on either side of the lockers are now the class in
   downward dog and a reverse warrior assist.
-- Pricing page top photo: a class in triangle pose instead of the empty brick wall and doors.
+- Pricing page top photo: a teacher assisting a student in the splits instead of the empty brick
+  wall and doors.
 - Unused photos removed (Lift class, prop shelves, arched mirrors, door knob, brick wall and doors).
 
 ## 1.14 — Pricing page and quiz match today's studio
