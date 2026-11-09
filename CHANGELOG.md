@@ -8,6 +8,13 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
+## 1.15 — Class photos on the home page
+- Home page class cards: the six "Class photos coming soon" placeholders are replaced with the
+  studio's edited class photos, each matched to its class (Vinyasa: assisted three-legged dog;
+  Power: arm balance; Descend Yin: seated forward fold; Climb & Descend: assisted splits hold;
+  Yoga Sculpt: lunge with dumbbells; Aero: Mat Pilates: class doing mat work on their backs).
+- Unused Lift class photo removed.
+
 ## 1.14 — Pricing page and quiz match today's studio
 - Pricing page: the search description names the current memberships (Altitude Unlimited, Align &
   Altitude Silver and Gold) instead of Reformer 8 and All-Access VIP.
