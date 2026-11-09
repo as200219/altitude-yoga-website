@@ -8,10 +8,12 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
-## 1.16 — Class cards reordered
+## 1.16 — Class cards reordered, new Pricing photo
 - Home page class cards now run Vinyasa, Power, Climb & Descend, Yoga Sculpt, Descend Yin, Aero: Mat
   Pilates, so photos of the same people (Power and Descend Yin; Yoga Sculpt and Aero) no longer sit
   side by side.
+- Pricing page top photo: the teacher laughing as she assists a student in the gray set, instead
+  of the splits assist.
 
 ## 1.15 — Class photos on the home page
 - Home page class cards: the six "Class photos coming soon" placeholders are replaced with the
