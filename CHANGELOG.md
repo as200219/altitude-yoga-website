@@ -11,8 +11,8 @@ Add the entry in the same commit as the change.
 ## 1.15 — Class photos on the home page
 - Home page class cards: the six "Class photos coming soon" placeholders are replaced with the
   studio's edited class photos, each matched to its class (Vinyasa: assisted three-legged dog;
-  Power: warrior II with an assist; Descend Yin: seated forward fold; Climb & Descend: low lunge with hands at heart;
-  Yoga Sculpt: lunge with dumbbells; Aero: Mat Pilates: kneeling side plank).
+  Power: warrior II with an assist; Descend Yin: seated forward fold; Climb & Descend: class in supine stretches on the floor;
+  Yoga Sculpt: lunge with dumbbells; Aero: Mat Pilates: side plank with a teacher assist).
 - Unused Lift class photo removed.
 
 ## 1.14 — Pricing page and quiz match today's studio
