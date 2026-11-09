@@ -14,6 +14,7 @@ Add the entry in the same commit as the change.
   side by side.
 - Pricing page top photo: a student in a low lunge with hands at heart, instead
   of the splits assist.
+  The photo frame is taller on wide screens so her whole pose shows.
 
 ## 1.15 — Class photos on the home page
 - Home page class cards: the six "Class photos coming soon" placeholders are replaced with the
