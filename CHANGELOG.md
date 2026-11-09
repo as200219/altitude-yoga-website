@@ -8,6 +8,19 @@ computer says "Local preview · not published" instead.
 Bump the minor (1.x) for content and design changes, the major for a new site structure.
 Add the entry in the same commit as the change.
 
+## 1.15 — Class photos on the home page
+- Home page class cards: the six "Class photos coming soon" placeholders are replaced with the
+  studio's edited class photos, each matched to its class (Vinyasa: assisted three-legged dog;
+  Power: warrior II with an assist; Descend Yin: seated forward fold; Climb & Descend: class in supine stretches on the floor;
+  Yoga Sculpt: lunge with dumbbells; Aero: Mat Pilates: side plank with a leg lift).
+- About page photo strip: arm balance, assisted splits, and wheel pose instead of the prop
+  shelves, mirrors, and door knob.
+- Plan Your Visit photo strip: the photos on either side of the lockers are now the class in
+  downward dog and a reverse warrior assist.
+- Pricing page top photo: a teacher assisting a student in the splits instead of the empty brick
+  wall and doors.
+- Unused photos removed (Lift class, prop shelves, arched mirrors, door knob, brick wall and doors).
+
 ## 1.14 — Pricing page and quiz match today's studio
 - Pricing page: the search description names the current memberships (Altitude Unlimited, Align &
   Altitude Silver and Gold) instead of Reformer 8 and All-Access VIP.
